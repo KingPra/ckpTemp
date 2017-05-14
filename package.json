@@ -1,0 +1,21 @@
+{
+  "name": "gulpy",
+  "version": "3.0.4",
+  "description": "[Business Frontpage](http://startbootstrap.com/template-overviews/business-frontpage/) is a basic business website template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingPra/ckpTemp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingPra/ckpTemp/issues"
+  },
+  "homepage": "https://github.com/KingPra/ckpTemp#readme"
+}
