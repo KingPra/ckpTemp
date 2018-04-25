@@ -7,7 +7,7 @@ const strip = require('gulp-strip-comments');
 gulp.task('default', ['html', 'css', 'js', 'images', 'fonts']);
 
 gulp.task('html', () => {
-  return gulp.src('index.html')
+  return gulp.src('*.html')
   .pipe(strip())
   .pipe(gulp.dest('public_html/'))
 });

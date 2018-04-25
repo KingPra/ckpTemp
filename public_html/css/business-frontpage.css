@@ -1,4 +1,7 @@
-
+.ckp_logo {
+  width: 300px;
+  height: auto;
+}
 body {
     padding-top: 50px; 
     background: #101010;
