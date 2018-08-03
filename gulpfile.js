@@ -3,13 +3,25 @@ const sass = require('gulp-sass');
 const browser = require('gulp-browser');
 const imagemin = require('gulp-imagemin');
 const strip = require('gulp-strip-comments');
+const browserSync = require('browser-sync').create();
 
-gulp.task('default', ['html', 'css', 'js', 'images', 'fonts']);
+gulp.task('browserSync', () => {
+  browserSync.init({
+    server: {
+      baseDir: 'public_html'
+    }
+  });
+});
+
+gulp.task('default', ['html', 'css', 'js', 'images', 'fonts', 'browserSync']);
 
 gulp.task('html', () => {
   return gulp.src('*.html')
   .pipe(strip())
   .pipe(gulp.dest('public_html/'))
+  .pipe(browserSync.reload({
+    stream: true
+  }));
 });
 
 gulp.task('css', () => {
@@ -17,12 +29,18 @@ gulp.task('css', () => {
   .pipe(sass())
   .pipe(strip.text())
   .pipe(gulp.dest('public_html/css'))
+  .pipe(browserSync.reload({
+    stream: true
+  }));
 });
 
 gulp.task('css', () => {
   return gulp.src('css/*')
   .pipe(strip.text())
   .pipe(gulp.dest('public_html/css'))
+  .pipe(browserSync.reload({
+    stream: true
+  }));
 });
 
 gulp.task('js', () => {
