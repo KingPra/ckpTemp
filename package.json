@@ -8,9 +8,10 @@
     "gulp": "^3.9.1",
     "gulp-browser": "^3.0.11",
     "gulp-imagemin": "^4.1.0",
+    "gulp-minifier": "^1.2.2",
     "gulp-sass": "^4.0.1",
     "gulp-strip-comments": "^2.5.2",
-    "npm": "^5.8.0"
+    "npm": "^6.3.0"
   },
   "devDependencies": {},
   "scripts": {
