@@ -1,1 +1,9 @@
 .ftpconfig
+*.html
+*.scss
+*.js
+fonts
+images
+js
+.gitignore
+**.json
