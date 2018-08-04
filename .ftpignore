@@ -1,0 +1,11 @@
+.ftpconfig
+gulpfile.js
+.git
+css
+fonts
+images
+js
+node_modules
+*.html
+README.md
+*.json
