@@ -11,7 +11,11 @@
   "target": "/",
   "ignore": [
     ".remote-sync.json",
-    ".git/**"
+    ".git/**",
+    "development",
+    ".gitignore",
+    ".ftpignore",
+    "gulpfile.js"
   ],
   "username": "king@ckptuning.com",
   "password": "7048776244king",
