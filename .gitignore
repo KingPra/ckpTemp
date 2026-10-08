@@ -1,3 +1,6 @@
 node_modules
 gulpfile.js
 .ftpconfig
+
+# Local deployment credentials
+/.remote-sync.json

@@ -1,0 +1,8 @@
+{
+  "transport": "ftp",
+  "hostname": "",
+  "port": "21",
+  "username": "",
+  "password": "",
+  "uploadOnSave": false
+}
